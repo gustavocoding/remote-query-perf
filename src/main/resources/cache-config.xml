@@ -1,0 +1,11 @@
+<infinispan xmlns="urn:infinispan:config:12.0">
+    <cache-container>
+        <replicated-cache name="NAME" statistics="true">
+            <indexing enabled="true">
+                <indexed-entities>
+                    <indexed-entity>sample.Entity</indexed-entity>
+                </indexed-entities>
+            </indexing>
+        </replicated-cache>
+    </cache-container>
+</infinispan>
