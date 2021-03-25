@@ -4,6 +4,10 @@
 
 ```mvn clean install```
 
+### Requirements 
+
+Infinispan 12 server running
+
 ### Usage
 
 Run
